@@ -391,11 +391,9 @@
 #     turn_left()
 #     turn_left()
 
-
 # while front_is_clear():
 #     move()
 #     turn_left()
-
 
 # while not at_goal():
 #     if front_is_clear() and wall_on_right():
@@ -678,3 +676,122 @@
 #             turn_right()
 #             move()
 #             done()
+
+# Storm 3,4
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+
+
+# def check_row():
+#     while True:
+#         if object_here():
+#             take()
+#         elif not front_is_clear() and not wall_in_front() and not wall_in_front():
+#             turn_left()
+#             move()
+#             turn_right()
+#             move()
+#             move()
+#             turn_right()
+#             move()
+#             turn_left()
+#         elif not front_is_clear() and is_facing_north():
+#             turn_left()
+#             move()
+#             turn_left()
+#         elif not front_is_clear() and not wall_in_front():
+#             turn_left()
+#             move()
+#             turn_right()
+#             move()
+#             move()
+#             turn_right()
+#             move()
+#             turn_left()
+#         elif wall_in_front() and wall_on_right():
+#             break
+#         elif not front_is_clear() and not is_facing_north():
+#             turn_right()
+#             move()
+#             turn_right()
+#             if not front_is_clear():
+#                 turn_right()
+#                 move()
+#                 turn_left()
+
+
+#         elif  front_is_clear():
+#             move()
+
+
+# def toss_bin():
+#     while True:
+#         if carries_object():
+#             toss()
+#         else:
+#             break
+# while True:
+#     if object_here():
+#             take()
+#     elif front_is_clear():
+#             move()
+#     else:
+#             turn_left()
+#             break
+# check_row()
+# toss_bin()
+
+# turn_left()
+# move()
+# turn_right()
+# move()
+# move()
+# turn_right()
+# move()
+
+
+# #Tokens 1,2,3
+# def move_token():
+#     move()
+#     while not at_goal():
+#         if object_here():
+#             take()
+#             move()
+#             put()
+#             move()
+#         else:
+#             move()
+
+
+# move_token()
+
+
+# #Tokens 4,5
+# def move_token():
+#     while not at_goal():
+#         if object_here():
+#             collect_all()
+#         elif carries_object():
+#             put_down_all_and_move()
+#         else:
+#             move()
+
+# def collect_all():
+#     while True:
+#         if object_here():
+#             take()
+#             move()
+#         else:
+#             break
+
+# def put_down_all_and_move():
+#     while True:
+#         if carries_object():
+#             put()
+#         else:
+#             move()
+#             break
+
+# move_token()
